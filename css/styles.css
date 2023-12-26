@@ -2,6 +2,11 @@ body {
   font-family: "league spartan";
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .hero__bg {
   background-image: url(../images/homepage/hero-bg-mobile.jpg);
   height: 46.75rem;
