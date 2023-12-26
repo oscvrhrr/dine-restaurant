@@ -3,7 +3,7 @@ body {
 }
 
 .hero__bg {
-  background-image: url(../images/homepage/hero-bg-mobile@2x.jpg);
+  background-image: url(../images/homepage/hero-bg-mobile.jpg);
   height: 46.75rem;
   background-size: cover;
   display: flex;
@@ -12,7 +12,6 @@ body {
 }
 
 .hero__container {
-  background-color: #111111;
   height: 34rem;
   display: flex;
   flex-direction: column;
@@ -277,4 +276,6 @@ body {
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
+  color: white;
 }
+
