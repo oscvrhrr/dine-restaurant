@@ -245,6 +245,11 @@ a {
   margin: 5rem 0 7.75rem;
 }
 
+.slide__container--title {
+  display: block;
+  padding: 3rem 0 0 0;
+}
+
 .slide__title {
   font-size: 1.06rem;
   line-height: 28px;
@@ -252,6 +257,19 @@ a {
   letter-spacing: 2.5px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #4C4C4C;
+  opacity: 0.5;
+}
+
+.slide--margin-top {
+  margin-top: 1rem;
+}
+
+.slide--underline {
+  display: block;
+  border: 1px solid #9E7F66;
+  width: 3rem;
+  margin: 0 auto;
 }
 
 .slide--heading__container {
@@ -268,7 +286,7 @@ a {
   font-weight: 600;
   width: 15rem;
   text-align: center;
-  margin: 2rem 0 1rem 0;
+  margin: 1.75rem 0 1rem 0;
   position: absolute;
   top: 0;
 }
@@ -276,7 +294,7 @@ a {
 .slide--description__container {
   width: 19.75rem;
   height: 6.5rem;
-  margin: 5rem auto;
+  margin: 5rem auto 1.6rem;
   text-align: center;
   line-height: 26px;
   font-weight: 300;
