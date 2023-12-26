@@ -140,6 +140,21 @@ body {
 .menu-highlights {
   background-color: #111111;
   color: white;
+
+}
+
+.menu__pattern {
+  display: block;
+  margin: 0 auto;
+  padding: 4.5rem 0 2.25rem 0;
+}
+
+.menu--border {
+  display: block;
+  width: 20.4rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  opacity: 0.14;
 }
 
 .menu-highlights__title {
@@ -150,7 +165,7 @@ body {
   width: 19rem;
   text-align: center;
   margin: 0 auto;
-  padding: 7.1rem 0 0.75rem 0;
+  padding: 0 0 0.75rem 0;
 }
 
 .menu-highlights__description {
@@ -158,7 +173,15 @@ body {
   margin: 0 auto;
   text-align: center;
   line-height: 26px;
+  padding: 0 0 5.3rem 0;
+  
 }
+
+
+.menu--container--padding {
+  padding-top: 1.5rem;
+}
+
 
 .menu-highlights__dish-container {
   width: 20.4rem;
@@ -187,9 +210,13 @@ body {
 
 .menu-highlights__subtitle--description {
   line-height: 26px;
-  margin: 0 auto 3.375rem;
+  margin: 0 auto ;
+  padding-bottom: 3.375rem;
   width: 17rem;
+
 }
+
+
 
 .container__slide-img {
   width: 20.4rem;
