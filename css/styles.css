@@ -17,7 +17,6 @@ a {
   background-position: center;
 }
 
-
 .hero__bg--marginbottom {
   padding: 0 0 5.5rem 0;
 }
@@ -65,16 +64,23 @@ a {
   letter-spacing: 2.5px;
 }
 
-
 .card {
   position: relative;
   height: 40rem;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: end;
   align-items: center;
+  width: auto;
 }
 
+.pattern-top-right,
+.pattern-top-left,
+.pattern--lines,
+.enjoyable__t,
+.locally__t {
+  display: none;
+}
 
 .card--margin {
   margin: 0 0 6.31rem 0;
@@ -84,11 +90,10 @@ a {
   padding: 0 0 1rem 0;
 }
 
-.container__img--enjoyable{
+.container__img--enjoyable {
   position: absolute;
   top: -11%;
 }
-
 
 .container__img--enjoyable,
 .container__img--locally {
@@ -96,15 +101,13 @@ a {
   width: 20.4rem;
   height: 25rem;
   margin: 0 auto;
-  box-shadow: 0px 50px 101px -55px rgba(0,0,0,0.75);
-
+  box-shadow: 0px 50px 101px -55px rgba(0, 0, 0, 0.75);
 }
 
 .locally__m,
 .enjoyable__m {
   object-fit: cover;
   width: 100%;
-
 }
 
 .subtitle--bold {
@@ -114,7 +117,6 @@ a {
 .hero-subheading-margin-top {
   margin-top: 5.65rem;
 }
-
 
 .hero__sub-description,
 .hero__sub-description-two {
@@ -126,7 +128,7 @@ a {
   margin: 1rem auto 0;
 }
 
-.hero__sub-description-margin{
+.hero__sub-description-margin {
   margin-bottom: 1rem;
 }
 
@@ -145,7 +147,6 @@ a {
 .menu-highlights {
   background-color: #111111;
   color: white;
-
 }
 
 .menu__pattern {
@@ -179,14 +180,11 @@ a {
   text-align: center;
   line-height: 26px;
   padding: 0 0 5.3rem 0;
-  
 }
-
 
 .menu--container--padding {
   padding-top: 1.5rem;
 }
-
 
 .menu-highlights__dish-container {
   width: 20.4rem;
@@ -210,18 +208,15 @@ a {
   font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: -0.25px;
-  margin: 2.25rem 0 .75rem 0;
+  margin: 2.25rem 0 0.75rem 0;
 }
 
 .menu-highlights__subtitle--description {
   line-height: 26px;
-  margin: 0 auto ;
+  margin: 0 auto;
   padding-bottom: 3.375rem;
   width: 17rem;
-
 }
-
-
 
 .container__slide-img {
   width: 20.4rem;
@@ -229,7 +224,6 @@ a {
   margin: 0 auto;
   position: relative;
   box-shadow: 0px 44px 90px -48px rgba(0, 0, 0, 0.75);
-
 }
 
 .family-m,
@@ -257,7 +251,7 @@ a {
   letter-spacing: 2.5px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #4C4C4C;
+  color: #4c4c4c;
   opacity: 0.5;
 }
 
@@ -267,7 +261,7 @@ a {
 
 .slide--underline {
   display: block;
-  border: 1px solid #9E7F66;
+  border: 1px solid #9e7f66;
   width: 3rem;
   margin: 0 auto;
 }
@@ -276,7 +270,6 @@ a {
   width: 15rem;
   margin: 0 auto;
   position: relative;
-
 }
 
 .slide__heading {
@@ -317,7 +310,6 @@ a {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   margin: 0 auto;
-
 }
 
 .reservation__cta {
@@ -366,7 +358,6 @@ a {
   align-items: center;
   justify-content: space-around;
   padding: 5rem 0;
-
 }
 
 .footer__list--item {
@@ -379,6 +370,115 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 765px) {
+  .hero__logo {
+    width: 6.4rem;
+  }
 
+  .hero__bg {
+    background-image: url(../images/homepage/hero-bg-tablet.jpg);
+    background-position: top;
+    height: 62rem;
+  }
+
+  .hero__container {
+    height: 25.1rem;
+    margin: 0 0 8rem 0;
+  }
+
+  .hero__description {
+    width: 36rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  /* .hero__sub-heading-two {
+    position: relative;
+  } */
+
+  .hero__sub-heading-two,
+  .hero__sub-heading,
+  .hero__title {
+    font-size: 4rem;
+    width: 30rem;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+  }
+
+  .hero__sub-description,
+  .hero__sub-description-two {
+    width: 28rem;
+    line-height: 30px;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  .container__img--enjoyable,
+  .container__img--locally {
+    width: 36rem;
+    height: 22.6rem;
+  }
+
+  .container__img--locally {
+    position: relative;
+  }
+
+  .enjoyable__t,
+  .locally__t {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .enjoyable__m,
+  .locally__m {
+    display: none;
+  }
+
+  .card--hide-overflow {
+    overflow-x: hidden;
+  }
+
+  .pattern-top-right,
+  .pattern-top-left,
+  .pattern--lines,
+  .enjoyable__t,
+  .locally__t {
+  display: block;
 }
+
+
+  .pattern-top-right {
+    position: absolute;
+    left: -68%;
+    top: 22%;
+  }
+
+
+  .pattern-top-left {
+    position: absolute;
+    bottom: 0;
+    right: -68%
+
+  }
+
+  .pattern--lines {
+    position: absolute;
+    right: -9%;
+    bottom: 10%;
+  }
+
+  .card--margin {
+    margin: initial;
+    padding: 0 0 6.31rem 0;
+  }
+
+  /* .menu-highlights__title {
+    font-size: 4rem;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    width: 40rem;
+
+  } */
+}
+
