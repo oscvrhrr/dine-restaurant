@@ -235,6 +235,8 @@ a {
   top: 0;
 }
 
+
+
 .slide__wrapper--marginbottom {
   margin: 5rem 0 7.75rem;
 }
@@ -444,9 +446,8 @@ a {
   .pattern--lines,
   .enjoyable__t,
   .locally__t {
-  display: block;
-}
-
+    display: block;
+  }
 
   .pattern-top-right {
     position: absolute;
@@ -454,12 +455,10 @@ a {
     top: 22%;
   }
 
-
   .pattern-top-left {
     position: absolute;
     bottom: 0;
-    right: -68%
-
+    right: -68%;
   }
 
   .pattern--lines {
@@ -473,7 +472,6 @@ a {
     padding: 0 0 6.31rem 0;
   }
 
-  
   .menu-highlights__title {
     font-size: 4rem;
     line-height: 48px;
@@ -503,12 +501,9 @@ a {
     text-align: left;
   }
 
-
-
   .menu__container-flex {
     display: flex;
     width: 42rem;
-
   }
 
   .menu-highlights__subtitle--description,
@@ -530,8 +525,102 @@ a {
     border: 0.5px solid #9e7f66;
     width: 2rem;
     bottom: 62%;
-
   }
 
-}
+  .container__slide-img {
+    width: 35.8rem;
+    height: 22.5rem;
+  }
 
+  .family-m,
+  .special-m,
+  .social-m {
+    display: none;
+  }
+
+  .family-t,
+  .special-t,
+  .social-t {
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .slide {
+    position: relative;
+  }
+
+  .slide__patterns {
+    position: absolute;
+    z-index: 5;
+    left: -10%;
+    top: -10.5%;
+  }
+
+  .slide__pattern--top-right {
+    position: absolute;
+    left: -50%;
+    top: -13%;
+  }
+
+  .slide__container--title {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .slide--margin-top {
+    margin: initial;
+  }
+
+  .slide__container--title {
+    padding-top: 3.5rem;
+  }
+
+  .slide--heading__container {
+    width: 25rem;
+  }
+  .slide__heading {
+    font-size: 3rem;
+    width: 25.8rem;
+    margin-top: 2.9rem;
+  }
+
+  .slide__description {
+    margin-top: 1.2rem;
+  }
+
+  .slide__btn {
+    margin-top: 3.75rem;
+  }
+
+  .reservation__title {
+    width: 40rem;
+    font-size: 3rem;
+    margin-bottom: 1.5rem ;
+  }
+
+  .footer__log--container {
+    height: 12.5rem;
+  }
+
+  .footer--layout {
+    flex-direction: row;
+  }
+
+  .footer__list-layout {
+    display: flex;
+    flex-direction: column;
+    width: 27.5rem;
+  }
+
+  .footer__item-margin-bottom {
+    margin-bottom: 2rem;
+  }
+
+  .footer__list--item {
+    text-align: start;
+  }
+
+
+}
