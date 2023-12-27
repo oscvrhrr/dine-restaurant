@@ -473,12 +473,65 @@ a {
     padding: 0 0 6.31rem 0;
   }
 
-  /* .menu-highlights__title {
+  
+  .menu-highlights__title {
     font-size: 4rem;
     line-height: 48px;
     letter-spacing: -0.5px;
     width: 40rem;
+    font-weight: 600;
+  }
 
-  } */
+  .menu__pattern {
+    padding: 6rem 0 2.25rem 0;
+  }
+
+  .menu-highlights__description {
+    width: 22rem;
+    margin-top: 1.5rem;
+  }
+
+  .menu-highlights__dish-container {
+    width: 8rem;
+    height: 6rem;
+    margin-left: 6.25rem;
+    position: relative;
+  }
+
+  .menu-highlights__subtitle,
+  .menu-highlights__subtitle--description {
+    text-align: left;
+  }
+
+
+
+  .menu__container-flex {
+    display: flex;
+    width: 42rem;
+
+  }
+
+  .menu-highlights__subtitle--description,
+  .flex-row {
+    width: 23rem;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu--border {
+    width: 35.75rem;
+  }
+
+  .right-line {
+    position: absolute;
+    border: 0.5px solid #9e7f66;
+    width: 2rem;
+    bottom: 62%;
+
+  }
+
 }
 
