@@ -199,6 +199,7 @@ a {
   width: 100%;
 }
 
+
 .menu-highlights__subtitle,
 .menu-highlights__subtitle--description {
   text-align: center;
@@ -235,6 +236,13 @@ a {
   top: 0;
 }
 
+  .slide__pattern--top-right,
+  .slide__patterns,
+  .family-t,
+  .special-t,
+  .social-t {
+    display: none;
+  }
 
 
 .slide__wrapper--marginbottom {
@@ -545,6 +553,7 @@ a {
     width: 100%;
     position: absolute;
     top: 0;
+    display: block;
   }
 
   .slide {
@@ -556,12 +565,13 @@ a {
     z-index: 5;
     left: -10%;
     top: -10.5%;
+    display: block;
   }
 
   .slide__pattern--top-right {
     position: absolute;
     left: -50%;
-    top: -13%;
+    top: -13%;display: block;
   }
 
   .slide__container--title {
@@ -597,7 +607,7 @@ a {
   .reservation__title {
     width: 40rem;
     font-size: 3rem;
-    margin-bottom: 1.5rem ;
+    margin-bottom: 1.5rem;
   }
 
   .footer__log--container {
@@ -621,6 +631,56 @@ a {
   .footer__list--item {
     text-align: start;
   }
+}
+
+@media screen and (min-width: 1050px) {
+  .hero__bg {
+    background-image: url('../images/homepage/hero-bg-desktop.jpg');
+    justify-content: initial;
+    height: 100%;
+  }
+
+  .hero__container {
+    display: block;
+    margin: 0 0 0 10.3rem;
+    padding: initial;
+    height: 52.25rem;
+
+
+  }
+
+  .hero__logo {
+    margin-top: 4.05rem;
+  }
+  
+  .hero__title,
+  .hero__description {
+    text-align: start;
+    margin: initial;
+  }
+
+  .hero__title {
+    margin: 9.5rem 0 .75rem 0;
+    font-size: 5rem;
+    width: 31rem;
+    line-height: 80px;
+    letter-spacing: -1px;
+  }
+
+  .hero__description {
+    margin-bottom: 2.5rem;
+    line-height: 30px;
+    width: 27rem;
+  }
+
+  .hero__bg--marginbottom {
+    padding: initial;
+  }
+
+
+
+
+
 
 
 }
