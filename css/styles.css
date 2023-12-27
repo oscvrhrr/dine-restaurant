@@ -759,13 +759,42 @@ a {
     text-align: left;
   }
 
+  .menu__pattern,
+  .menu-highlights__description,
   .hero__sub-description-two,
   .hero__sub-description {
     margin: initial;
   }
 
   .menu-highlights {
-  position: relative;
- }
+    display: flex;
+    height: 47.7rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menu-highlights--padding {
+    padding: initial;
+  }
+
+  .menu__left {
+    width: 15rem;
+    margin: 0 0 8rem 3rem;
+  }
+
+  .menu__right {
+    margin: 9rem 0 0 0;
+  }
+
+  .menu-highlights__title,
+  .menu-highlights__description {
+    text-align: left;
+  }
+
+  .menu-highlights__title {
+    font-size: 3rem;
+    width: 27rem;
+    line-height: 48px;
+  }
 
 }
