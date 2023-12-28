@@ -874,7 +874,7 @@ a {
   }
 
   .slide-top-right__container { 
-    width: 20rem;
+    width: 17rem;
     flex-direction: column;
     margin: 4.3rem 0 0 8rem;
   }
@@ -898,6 +898,7 @@ a {
     margin: initial;
     text-align: left;
   }
+
 
   .slide__description {
     width: 26rem;
