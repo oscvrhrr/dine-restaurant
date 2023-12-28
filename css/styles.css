@@ -135,12 +135,16 @@ a {
 }
 
 .pattern-margin {
-  margin: 3rem 0;
+  display: block;
+  margin: 3rem auto;
 }
 
 .pattern-margin-bottom {
-  margin: 0 0 3rem 0;
+  margin: 0 auto 3rem;
+  display: block;
+
 }
+
 
 .menu-highlights--padding {
   padding-bottom: 3.375rem;
@@ -241,7 +245,10 @@ a {
 .slide__patterns,
 .family-t,
 .special-t,
-.social-t {
+.social-t,
+.family-d,
+.special-d,
+.social-d {
   display: none;
 }
 
@@ -457,7 +464,7 @@ a {
   .pattern-top-right {
     position: absolute;
     left: -68%;
-    top: 22%;
+    top: 20%;
   }
 
   .pattern-top-left {
@@ -470,6 +477,10 @@ a {
     position: absolute;
     right: -9%;
     bottom: 10%;
+  }
+
+  .clip {
+    overflow-x: clip
   }
 
   .card--margin {
@@ -680,8 +691,8 @@ a {
 
 
   .pattern-top-right {
-    left: 0;
-    top: 33%;
+    left: -3%;
+    top: 36.5%;
   }
 
   .pattern-top-left {
@@ -807,7 +818,7 @@ a {
 
   
   .slide__pattern--top-right {
-    left: -29%;
+    left: -24.5%;
   }
   
   .container__slide-img {
@@ -822,6 +833,7 @@ a {
     width: 100%;
     position: absolute;
     top: 0;
+    display: block;
   }
   
   .slide__content-container {
