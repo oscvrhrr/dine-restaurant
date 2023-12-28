@@ -857,6 +857,7 @@ a {
   .container__slide-img {
     width: 33.75rem;
     height: 37.5rem;
+    position: relative;
   }
   
   .family-d,
@@ -896,6 +897,16 @@ a {
   .slide--underline {
     display: none;
 }
+
+ .slide--underline-d {
+    position: absolute;  
+    display: inline;
+    border: .5px solid #9e7f66;
+    width: 5.93rem;
+    height: 0;
+    right: -17.5%;
+    bottom: 31%;
+ }
 
   .slide__btn,
   .slide__heading,
