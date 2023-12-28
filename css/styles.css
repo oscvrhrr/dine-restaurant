@@ -828,13 +828,18 @@ a {
     margin: 9rem 0 0 0;
   }
 
-  .menu-highlights__title,
+
   .menu-highlights__description {
     text-align: left;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 300;
+    width: 27rem;
   }
-
+  
   .menu-highlights__title {
     font-size: 3rem;
+    text-align: left;
     width: 27rem;
     line-height: 48px;
   }
@@ -941,6 +946,7 @@ a {
     width: 35rem;
   }
 
+  
   .footer__list {
     width: 20.25rem;
     font-size: .875rem;
