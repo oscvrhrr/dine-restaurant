@@ -64,6 +64,15 @@ a {
   letter-spacing: 2.5px;
 }
 
+.hero__btn:hover,
+.slide__btn:hover,
+.reservation__btn:hover {
+  background-color: #fff;
+  color: #111111;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+
 .card {
   position: relative;
   height: 40rem;
@@ -369,12 +378,13 @@ a {
 }
 
 .footer--layout {
+  font-size: .875rem;
   height: 22.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 5rem 0;
+  padding: 2.5rem 0;
 }
 
 .footer__list--item {
@@ -385,6 +395,10 @@ a {
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.footer__item-margin-bottom {
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 765px) {
@@ -855,5 +869,43 @@ a {
 
   .slide__description {
     text-align: left;
+  }
+
+  
+  .reservation__cta {
+    background-image: url('../images/homepage/ready-bg-desktop.jpg');
+    background-position: 45%;
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    padding: 5.9rem 0;
+
+  }
+  
+  .reservation__title {
+    font-size: 3rem;
+    width: 40rem;
+    margin: 0 0 0 10.3rem;
+  }
+  
+  .footer--layout {
+    padding: 5rem 0;
+    max-height: 5.5rem;
+  }
+
+  .footer__log--container {
+    height: 5.25rem;
+  }
+
+  .footer__list-layout {
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    width: 35rem;
+  }
+
+  .footer__list {
+    width: 20.25rem;
+    font-size: .875rem;
   }
 }
