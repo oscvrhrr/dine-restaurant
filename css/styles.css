@@ -759,10 +759,19 @@ a {
     display: block;
   }
 
+  @keyframes updownAnimation {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
 
   .pattern--lines {
     top: 38.5%;
     right: -18%;
+    animation: updownAnimation 2s infinite alternate ease-in-out;
   }
 
   .pattern-margin-bottom {
@@ -792,13 +801,42 @@ a {
     height: 40rem;
   }
 
-
-
+  
+  
+  
   .hero__sub-heading-two,
   .hero__sub-heading,
   .hero__sub-description,
   .hero__sub-description-two {
     text-align: left;
+  }
+
+  .hero__sub-heading {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+    transition: all 1000ms linear;
+  }
+  
+  .hero__sub-heading--active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+
+
+  }
+
+  .hero__sub-heading-two {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+    transition: all 1000ms linear;
+  }
+  
+  
+
+  .hero__sub-heading-two--active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+    
   }
 
   .menu__pattern,
@@ -847,6 +885,10 @@ a {
   .slide {
     display: flex;
     padding: 5rem 9.5rem 2rem;
+  }
+
+  .slide__patterns {
+    animation: updownAnimation 2s infinite alternate ease-in-out;
   }
 
   
