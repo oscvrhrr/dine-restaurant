@@ -37,29 +37,24 @@
   <section>
     <img src="../images/patterns/pattern-curve-bottom-right.svg" alt="">
     <form class="booking-form">
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="Email">
+      <input type="text" placeholder="Name" required>
+      <input type="text" placeholder="Email" required>
       <div class="date-container">
         <p>Pick a date</p>
-        <input type="text" id="input1" name="input1" placeholder="Input 1">
-        <input type="text" id="input2" name="input2" placeholder="Input 2">
-        <input type="text" id="input3" name="input3" placeholder="Input 3">
+        <input type="text" id="input1" name="input1" placeholder="MM" required>
+        <input type="text" id="input2" name="input2" placeholder="DD" required>
+        <input type="text" id="input3" name="input3" placeholder="YYYY" required>
       </div>
       <div class="time-container">
         <p>Pick a time</p>
-        <input type="text" id="input1" name="input1" placeholder="Input 1">
-        <input type="text" id="input2" name="input2" placeholder="Input 2">
-        <input type="text" id="input3" name="input3" placeholder="Input 3">
+        <input type="text" id="input1" name="input1" placeholder="09" required>
+        <input type="text" id="input2" name="input2" placeholder="00" required>
+        <input type="text" id="input3" name="input3" placeholder="AM" required>
       </div>
-      <input type="text" placeholder="4 people">
-      <button type="submit">Make Reservation</button>
+      <input type="text" placeholder="4 people" class="center" required>
+      <button type="submit" class="reservation-button">Make Reservation</button>
+      <!-- <img src="../images/patterns/pattern-lines.svg" alt="" class="form-lines"> -->
     </form>
-    <!-- Name
-    Email
-    Pick a date
-    Pick a time
-  
-    Make Reservation -->
   </section>
 
   <footer class="footer--background footer--layout">

@@ -27,17 +27,18 @@
 .booking-form {
     padding: 3.125rem 0 0 0;
     width: 33.75rem;
-    height: 34.0625rem;
+    height: 32.0625rem;
     box-shadow: 0px 44px 90px -48px rgba(0, 0, 0, 0.75);
     background-color: white;
     position: absolute;
     right: 10rem;
     top:15rem;
+    z-index: 2;
 }
 
 .booking-form input {
     color: black;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     font-family: 'league spartan';
     font-size: 1.25rem ;
     font-weight: 300;
@@ -62,10 +63,35 @@
     width: 5rem;
     height: 2.6875rem;
     margin: initial;
-    margin: 0 0 2.125rem 0;
-
+    margin: 0 0 2.125rem .755rem;
 }
 
 .date-container p, .time-container p {
     display: inline;
+    font-size: 1.25rem;
+    padding: 0 3.35rem 0 1rem;
+
+}
+
+.center {
+    text-align: center;
+
+}
+
+.reservation-button {
+    width: 27.75rem;
+    height: 4rem;
+    border-radius: 0%;
+    background-color: #111111;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    line-height: 1.75rem;
+    letter-spacing: .15625rem;
+    font-weight: 500;
+}
+
+.form-lines {
+    position: relative;
+    z-index: 1;
 }
