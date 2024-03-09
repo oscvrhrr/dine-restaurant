@@ -1,0 +1,25 @@
+.booking-hero {
+    background-image: url('../images/booking/hero-bg-desktop.jpg');
+    height: 37.5rem;
+}
+
+.booking-hero img {
+    margin: 4.06rem 0 0 10.5rem;
+}
+
+.booking-hero-content {
+    color: white;
+    width: 27.8125rem;
+    margin: 9.5625rem 0 0 10.3125rem;
+    font-family: 'league spartan';
+}
+.booking-hero-content h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.booking-hero-content p {
+    font-size: 1.25rem;
+    margin: 1.125rem 0 0 0;
+    line-height: 1.875rem;
+}
