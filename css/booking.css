@@ -35,6 +35,16 @@
     top:15rem;
 }
 
+.booking-form input {
+    color: black;
+    padding: 0 1rem;
+    font-family: 'league spartan';
+    font-size: 1.25rem ;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid;
+}
+
 .booking-form input, button {
     display: block;
     width: 27.75rem;
@@ -42,3 +52,20 @@
     margin: 0 auto 2.125rem;
 }
 
+.date-container, .time-container { 
+    padding: 0 2rem;
+
+}
+
+.date-container input, .time-container input {
+    display: inline;
+    width: 5rem;
+    height: 2.6875rem;
+    margin: initial;
+    margin: 0 0 2.125rem 0;
+
+}
+
+.date-container p, .time-container p {
+    display: inline;
+}
