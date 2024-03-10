@@ -144,3 +144,58 @@
     }
 }
 
+@media screen and (max-width: 460px) {
+    .hero__logo {
+        margin: 0 auto;
+    }
+
+    .booking-hero-content {
+        width: initial;
+    }
+
+   
+
+    .booking-hero {
+        background-image: url('../images/booking/hero-bg-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .booking-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .booking-hero-content p {
+        font-size: 1rem;
+        width: 20.43rem;
+        margin: 0 auto;
+    }
+
+    .booking-form {
+        width: 20.43rem;
+        padding-bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 27rem;
+    }
+
+    .booking-form input {
+        width: 16.43rem;
+    }
+
+    .date-container input, .time-container input {
+        width: 4.3rem;
+    }
+    .date-container p, .time-container p {
+        padding-right: 4.95rem ;
+    }
+    .reservation-button {
+        width: 16.43rem;
+    }
+
+    section {
+        height: 33.375rem;
+    }
+
+}
