@@ -98,3 +98,49 @@
     font-weight: 500;
 }
 
+@media screen and (max-width: 790px) {
+
+    section {
+        height: 27.1875rem;
+    }
+
+    section img {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .booking-hero img {
+        margin: 3.5rem 0 0 2.43rem;
+    }
+
+    .booking-hero {
+        background-image: url('../images/booking/hero-bg-tablet.jpg');
+
+    }
+
+    .booking-hero-content {
+        margin: 4.375rem auto;
+        text-align: center;
+        width: 35.81rem;
+
+    }
+
+    .booking-hero-content h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .booking-hero-content p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .booking-form {
+        left: 7rem;
+        top: 23rem;
+    }
+}
+
