@@ -36,6 +36,13 @@
     z-index: 2;
 }
 
+.form-lines {
+    position: relative;
+    z-index: 1;
+    right:  21rem;
+    bottom: 4.95rem;
+}
+
 .booking-form input {
     color: black;
     /* padding: 0 1rem; */
@@ -91,7 +98,3 @@
     font-weight: 500;
 }
 
-.form-lines {
-    position: relative;
-    z-index: 1;
-}
