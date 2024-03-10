@@ -148,12 +148,10 @@
     .hero__logo {
         margin: 0 auto;
     }
-
+    
     .booking-hero-content {
         width: initial;
     }
-
-   
 
     .booking-hero {
         background-image: url('../images/booking/hero-bg-mobile.jpg');
