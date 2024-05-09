@@ -1,0 +1,199 @@
+.booking-hero {
+    background-image: url('../../public/booking/hero-bg-desktop.jpg');
+    height: 37.5rem;
+}
+
+.booking-hero img {
+    margin: 4.06rem 0 0 10.5rem;
+}
+
+.booking-hero-content {
+    color: white;
+    width: 27.8125rem;
+    margin: 9.5625rem 0 0 10.3125rem;
+    font-family: 'league spartan';
+}
+.booking-hero-content h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.booking-hero-content p {
+    font-size: 1.25rem;
+    margin: 1.125rem 0 0 0;
+    line-height: 1.875rem;
+}
+
+.booking-form {
+    padding: 3.125rem 0 0 0;
+    width: 33.75rem;
+    height: 32.0625rem;
+    box-shadow: 0px 44px 90px -48px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    position: absolute;
+    right: 10rem;
+    top:15rem;
+    z-index: 2;
+}
+
+.form-lines {
+    position: relative;
+    z-index: 1;
+    right:  21rem;
+    bottom: 4.95rem;
+}
+
+.booking-form input {
+    color: black;
+    /* padding: 0 1rem; */
+    font-family: 'league spartan';
+    font-size: 1.25rem ;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.booking-form input, button {
+    display: block;
+    width: 27.75rem;
+    height: 2.6875rem;
+    margin: 0 auto 2.125rem;
+}
+
+.date-container, .time-container { 
+    padding: 0 2rem;
+
+}
+
+.date-container input, .time-container input {
+    display: inline;
+    width: 5rem;
+    height: 2.6875rem;
+    margin: initial;
+    margin: 0 0 2.125rem .755rem;
+}
+
+.date-container p, .time-container p {
+    display: inline;
+    font-size: 1.25rem;
+    padding: 0 3.35rem 0 1rem;
+
+}
+
+.center {
+    text-align: center;
+
+}
+
+.reservation-button {
+    width: 27.75rem;
+    height: 4rem;
+    border-radius: 0%;
+    background-color: #111111;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    line-height: 1.75rem;
+    letter-spacing: .15625rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 790px) {
+
+    section {
+        height: 27.1875rem;
+    }
+
+    section img {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .booking-hero img {
+        margin: 3.5rem 0 0 2.43rem;
+    }
+
+    .booking-hero {
+        background-image: url('../../public/booking/hero-bg-tablet.jpg');
+
+    }
+
+    .booking-hero-content {
+        margin: 4.375rem auto;
+        text-align: center;
+        width: 35.81rem;
+
+    }
+
+    .booking-hero-content h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .booking-hero-content p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .booking-form {
+        left: 7rem;
+        top: 23rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .hero__logo {
+        margin: 0 auto;
+    }
+    
+    .booking-hero-content {
+        width: initial;
+    }
+
+    .booking-hero {
+        background-image: url('../../public/booking/hero-bg-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .booking-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .booking-hero-content p {
+        font-size: 1rem;
+        width: 20.43rem;
+        margin: 0 auto;
+    }
+
+    .booking-form {
+        width: 20.43rem;
+        padding-bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 27rem;
+    }
+
+    .booking-form input {
+        width: 16.43rem;
+    }
+
+    .date-container input, .time-container input {
+        width: 4.3rem;
+    }
+    .date-container p, .time-container p {
+        padding-right: 4.95rem ;
+    }
+    .reservation-button {
+        width: 16.43rem;
+    }
+
+    section {
+        height: 33.375rem;
+    }
+
+}

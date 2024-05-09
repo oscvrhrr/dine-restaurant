@@ -1,0 +1,1029 @@
+body {
+  font-family: "league spartan";
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero__bg {
+  background-image: url(../../public/homepage/hero-bg-mobile.jpg);
+  height: 46.75rem;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-position: center;
+}
+
+.hero__bg--marginbottom {
+  padding: 0 0 5.5rem 0;
+}
+
+.hero__container {
+  height: 22.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 2;
+  margin: 0 0 6rem 0;
+}
+
+.hero__logo {
+  width: 5.125rem;
+}
+
+.hero__sub-heading-two,
+.hero__sub-heading,
+.hero__title {
+  font-size: 2rem;
+  line-height: 40px;
+  letter-spacing: -0.4px;
+  font-weight: 300;
+  width: 15rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero__sub-heading {
+  opacity: 0;
+  transform: translate3d(50px, 0, 0);
+  transition: all 1000ms linear;
+}
+
+.hero__sub-heading--active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+
+}
+
+.hero__sub-heading-two {
+  opacity: 0;
+  transform: translate3d(-50px, 0, 0);
+  transition: all 1000ms linear;
+}
+
+.hero__sub-heading-two--active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
+.hero__description {
+  width: 20rem;
+  text-align: center;
+  line-height: 26px;
+}
+
+.hero__btn {
+  background-color: #111111;
+  border: 1px solid white;
+  color: white;
+  padding: 1.75rem 3.65rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+.hero__btn:hover,
+.slide__btn:hover,
+.reservation__btn:hover {
+  background-color: #fff;
+  color: #111111;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+
+.card {
+  position: relative;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: auto;
+}
+
+.pattern-top-right,
+.pattern-top-left,
+.pattern--lines,
+.enjoyable__t,
+.enjoyable__d,
+.locally__t,
+.locally__d {
+  display: none;
+}
+
+.card--margin {
+  margin: 0 0 6.31rem 0;
+}
+
+.card--padding {
+  padding: 0 0 1rem 0;
+}
+
+.container__img--enjoyable {
+  position: absolute;
+  top: -11%;
+}
+
+.container__img--enjoyable,
+.container__img--locally {
+  z-index: 2;
+  width: 20.4rem;
+  height: 25rem;
+  margin: 0 auto;
+  box-shadow: 0px 50px 101px -55px rgba(0, 0, 0, 0.75);
+}
+
+.locally__m,
+.enjoyable__m {
+  object-fit: cover;
+  width: 100%;
+}
+
+.subtitle--bold {
+  font-weight: bold;
+}
+
+.hero-subheading-margin-top {
+  margin-top: 5.65rem;
+}
+
+.hero__sub-description,
+.hero__sub-description-two {
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0px;
+  width: 20rem;
+  margin: 1rem auto 0;
+}
+
+.hero__sub-description-margin {
+  margin-bottom: 1rem;
+}
+
+.pattern-margin {
+  display: block;
+  margin: 3rem auto;
+}
+
+.pattern-margin-bottom {
+  margin: 0 auto 3rem;
+  display: block;
+
+}
+
+
+.menu-highlights--padding {
+  padding-bottom: 3.375rem;
+}
+
+.menu-highlights {
+  background-color: #111111;
+  color: white;
+}
+
+.menu__pattern {
+  display: block;
+  margin: 0 auto;
+  padding: 4.5rem 0 2.25rem 0;
+}
+
+.menu--border {
+  display: block;
+  width: 20.4rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  opacity: 0.14;
+}
+
+.menu-highlights__title {
+  font-size: 2rem;
+  line-height: 40px;
+  letter-spacing: -0.4px;
+  font-weight: bold;
+  width: 19rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 0.75rem 0;
+}
+
+.menu-highlights__description {
+  width: 21rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 26px;
+  padding: 0 0 5.3rem 0;
+}
+
+.menu--container--padding {
+  padding-top: 1.5rem;
+}
+
+.menu-highlights__dish-container {
+  width: 20.4rem;
+  height: 15.3rem;
+  margin: 0 auto;
+}
+
+.salmon-m,
+.beef-m,
+.choco-m {
+  object-fit: cover;
+  width: 100%;
+}
+
+.menu-highlights__subtitle,
+.menu-highlights__subtitle--description {
+  text-align: center;
+}
+
+.menu-highlights__subtitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.25px;
+  margin: 2.25rem 0 0.75rem 0;
+}
+
+.menu-highlights__subtitle--description {
+  line-height: 26px;
+  margin: 0 auto;
+  padding-bottom: 3.375rem;
+  width: 17rem;
+}
+
+.container__slide-img {
+  width: 20.4rem;
+  height: 25rem;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0px 44px 90px -48px rgba(0, 0, 0, 0.75);
+}
+
+.family-m,
+.special-m,
+.social-m {
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.slide__pattern--top-right,
+.slide__patterns,
+.family-t,
+.special-t,
+.social-t,
+.family-d,
+.special-d,
+.social-d {
+  display: none;
+}
+
+.slide__wrapper--marginbottom {
+  margin: 5rem 0 7.75rem;
+}
+
+.slide__container--title {
+  display: block;
+  padding: 3rem 0 0 0;
+}
+
+.slide-top-right__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide__title {
+  font-size: 1.06rem;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4c4c4c;
+  opacity: 0.5;
+}
+
+.slide--margin-top {
+  margin-top: 1rem;
+}
+
+.slide--underline {
+  display: block;
+  border: 1px solid #9e7f66;
+  width: 3rem;
+  margin: 0 auto;
+}
+
+.slide--heading__container {
+  width: 15rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide__heading {
+  font-size: 2rem;
+  line-height: 40px;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  width: 15rem;
+  text-align: center;
+  margin: 1.75rem 0 1rem 0;
+  position: absolute;
+  top: 0;
+}
+
+.slide--description__container {
+  width: 19.75rem;
+  height: 6.5rem;
+  margin: 5rem auto 1.6rem;
+  text-align: center;
+  line-height: 26px;
+  font-weight: 300;
+  position: relative;
+}
+
+.slide__description {
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+}
+
+.slide__btn {
+  display: flex;
+  background-color: #111111;
+  border: 1px solid black;
+  color: white;
+  padding: 1.75rem 3.65rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+}
+
+.reservation__cta {
+  width: 100%;
+  height: 20.8rem;
+  background-image: url("../../public/homepage/ready-bg-mobile@2x.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.reservation__title {
+  font-size: 2rem;
+  line-height: 40px;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  width: 15rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.reservation__btn {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 1.75rem 3.65rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+}
+
+.footer--background {
+  background-color: #111111;
+  color: white;
+}
+
+.footer--layout {
+  font-size: .875rem;
+  height: 22.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.5rem 0;
+}
+
+.footer__list--item {
+  list-style: none;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer__item-margin-bottom {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 765px) {
+  .hero__logo {
+    width: 6.4rem;
+  }
+
+  .hero__bg {
+    background-image: url(../../public/homepage/hero-bg-tablet.jpg);
+    background-position: top;
+    height: 62rem;
+  }
+
+  .hero__container {
+    height: 25.1rem;
+    margin: 0 0 8rem 0;
+  }
+
+  .hero__description {
+    width: 36rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  /* .hero__sub-heading-two {
+    position: relative;
+  } */
+
+  .hero__sub-heading-two,
+  .hero__sub-heading,
+  .hero__title {
+    font-size: 4rem;
+    width: 30rem;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+  }
+
+  .hero__sub-description,
+  .hero__sub-description-two {
+    width: 28rem;
+    line-height: 30px;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  .container__img--enjoyable,
+  .container__img--locally {
+    width: 36rem;
+    height: 22.6rem;
+  }
+
+  .container__img--locally {
+    position: relative;
+  }
+
+  .enjoyable__t,
+  .locally__t {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .enjoyable__m,
+  .locally__m {
+    display: none;
+  }
+
+
+  .pattern-top-right,
+  .pattern-top-left,
+  .pattern--lines,
+  .enjoyable__t,
+  .locally__t {
+    display: block;
+  }
+
+  .pattern-top-right {
+    position: absolute;
+    left: -68%;
+    top: 20%;
+  }
+
+  .pattern-top-left {
+    position: absolute;
+    bottom: 0;
+    right: -68%;
+  }
+
+  .pattern--lines {
+    position: absolute;
+    right: -9%;
+    bottom: 10%;
+  }
+
+  .clip {
+    overflow-x: clip
+  }
+
+  .card--margin {
+    margin: initial;
+    padding: 0 0 6.31rem 0;
+  }
+
+  .menu-highlights__title {
+    font-size: 4rem;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    width: 40rem;
+    font-weight: 600;
+  }
+
+  .menu__pattern {
+    padding: 6rem 0 2.25rem 0;
+  }
+
+  .menu-highlights__description {
+    width: 22rem;
+    margin-top: 1.5rem;
+  }
+
+  .menu-highlights__dish-container {
+    width: 8rem;
+    height: 6rem;
+    margin-left: 6.25rem;
+    position: relative;
+  }
+
+  .menu-highlights__subtitle,
+  .menu-highlights__subtitle--description {
+    text-align: left;
+  }
+
+  .menu__container-flex {
+    display: flex;
+    width: 42rem;
+  }
+
+  .menu-highlights__subtitle--description,
+  .flex-row {
+    width: 23rem;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu--border {
+    width: 35.75rem;
+  }
+
+  .right-line {
+    position: absolute;
+    border: 0.5px solid #9e7f66;
+    width: 2rem;
+    bottom: 62%;
+  }
+
+  .container__slide-img {
+    width: 35.8rem;
+    height: 22.5rem;
+  }
+
+  .family-m,
+  .special-m,
+  .social-m {
+    display: none;
+  }
+
+  .family-t,
+  .special-t,
+  .social-t {
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+
+  .slide {
+    position: relative;
+  }
+
+  .slide__patterns {
+    position: absolute;
+    z-index: 5;
+    left: -10%;
+    top: -10.5%;
+    display: block;
+  }
+
+  .slide__pattern--top-right {
+    position: absolute;
+    left: -50%;
+    top: -13%;
+    display: block;
+  }
+
+  
+
+  .slide__container--title {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8rem;
+  }
+
+
+  .slide__title {
+    text-align: left;
+  }
+
+  .slide--margin-top {
+    margin: initial;
+  }
+
+  .slide__container--title {
+    margin: 0 auto;
+    padding-top: 3.5rem;
+  }
+
+  .slide--heading__container {
+    width: 25rem;
+  }
+  .slide__heading {
+    font-size: 3rem;
+    width: 25.8rem;
+    margin-top: 2.9rem;
+  }
+
+  .slide__description {
+    margin-top: 1.2rem;
+  }
+
+  .slide__btn {
+    margin-top: 2.1rem;
+  }
+
+  .reservation__title {
+    width: 40rem;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer__log--container {
+    height: 12.5rem;
+  }
+
+  .footer--layout {
+    flex-direction: row;
+  }
+
+  .footer__list-layout {
+    display: flex;
+    flex-direction: column;
+    width: 27.5rem;
+  }
+
+  .footer__item-margin-bottom {
+    margin-bottom: 2rem;
+  }
+
+  .footer__list--item {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .hero__bg {
+    background-image: url("../../public/homepage/hero-bg-desktop.jpg");
+    justify-content: initial;
+    height: 100%;
+  }
+
+  .hero__container {
+    display: block;
+    margin: 0 0 0 10.3rem;
+    padding: initial;
+    height: 52.25rem;
+  }
+
+  .hero__logo {
+    margin-top: 4.05rem;
+  }
+
+  .hero__title,
+  .hero__description {
+    text-align: start;
+    margin: initial;
+  }
+
+  .hero__title {
+    margin: 9.5rem 0 0.75rem 0;
+    font-size: 5rem;
+    width: 31rem;
+    line-height: 80px;
+    letter-spacing: -1px;
+  }
+
+  .hero__description {
+    margin-bottom: 2.5rem;
+    line-height: 30px;
+    width: 27rem;
+  }
+
+  .hero__bg--marginbottom {
+    padding: initial;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: end;
+  }
+
+
+  .pattern-top-right {
+    left: -3%;
+    top: 36.5%;
+  }
+
+  .pattern-top-left {
+    right: 0;
+  }
+
+  
+  .container__img--enjoyable {
+    height: 45rem;
+    width: 33.75rem;
+    left: 11%;
+
+  }
+
+  .container__img--locally {
+    height: 45rem;
+    width: 33.75rem;
+    right: 2%;
+    bottom: -37%;
+
+  }
+
+  
+  .enjoyable__t,
+  .locally__t,
+  .family-t,
+  .special-t,
+  .social-t {
+  display: none;
+  }
+  
+  .locally__d,
+  .enjoyable__d {
+    display: block;
+  }
+
+  @keyframes updownAnimation {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+  .pattern--lines {
+    top: 38.5%;
+    right: -18%;
+    animation: updownAnimation 2s infinite alternate ease-in-out;
+  }
+
+  .pattern-margin-bottom {
+    display: inline;
+  }
+
+  .card__content--right {
+    margin: 0 8.5rem 12rem 2rem;
+  }
+
+  .card__content-left {
+  margin: 16rem 0 2rem 10.3rem;
+  }
+
+  .card--margin {
+    padding: 0 0 0 0;
+    
+  }
+
+  .card-desktop-padding {
+    padding-bottom: 10rem;
+  }
+
+  .align-left {
+    flex-direction: row-reverse;
+    /* align-items: start; */
+    height: 40rem;
+  }
+
+  
+  
+  
+  .hero__sub-heading-two,
+  .hero__sub-heading,
+  .hero__sub-description,
+  .hero__sub-description-two {
+    text-align: left;
+  }
+
+  .hero__sub-heading {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+    transition: all 1000ms linear;
+  }
+  
+  .hero__sub-heading--active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+
+
+  }
+
+  .hero__sub-heading-two {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+    transition: all 1000ms linear;
+  }
+  
+  
+
+  .hero__sub-heading-two--active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+    
+
+  .menu__pattern,
+  .menu-highlights__description,
+  .hero__sub-description-two,
+  .hero__sub-description {
+    margin: initial;
+  }
+
+  .menu-highlights {
+    display: flex;
+    height: 47.7rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menu-highlights--padding {
+    padding: initial;
+  }
+
+  .menu__left {
+    width: 15rem;
+    margin: 0 0 8rem 3rem;
+  }
+
+  .menu__right {
+    margin: 9rem 0 0 0;
+  }
+
+
+  .menu-highlights__description {
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 300;
+    width: 27rem;
+  }
+  
+  .menu-highlights__title {
+    font-size: 3rem;
+    text-align: left;
+    width: 27rem;
+    line-height: 48px;
+  }
+
+  .slide {
+    display: flex;
+    padding: 5rem 9.5rem 2rem;
+  }
+
+  .slide__patterns {
+    animation: updownAnimation 2s infinite alternate ease-in-out;
+  }
+
+  
+  .slide__pattern--top-right {
+    left: -24.5%;
+  }
+  
+  .container__slide-img {
+    width: 33.75rem;
+    height: 37.5rem;
+    position: relative;
+  }
+  
+  .family-d,
+  .special-d,
+  .social-d {
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+  
+  .slide__content-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    height: 29.25rem;
+
+  }
+
+  .slide-top-right__container { 
+    width: 17rem;
+    flex-direction: column;
+    margin: 4.3rem 0 0 8rem;
+  }
+
+
+  .slide__container--title {
+    order: 3;
+    display: flex;
+    width: 19.5rem;
+    flex-direction: column;
+
+  }
+
+  .slide--underline {
+    display: none;
+  }
+
+ .slide--underline-d {
+    position: absolute;  
+    display: inline;
+    border: .5px solid #9e7f66;
+    width: 5.93rem;
+    height: 0;
+    right: -17.5%;
+    bottom: 31%;
+ }
+
+  .slide__btn,
+  .slide__heading,
+  .slide__description {
+    margin: initial;
+    text-align: left;
+  }
+
+
+  .slide__description {
+    width: 26rem;
+    font-size: 1.25rem;
+    line-height: 30px;
+    text-align: left;
+
+  }
+
+  
+  .reservation__cta {
+    background-image: url('../../public/homepage/ready-bg-desktop.jpg');
+    background-position: 45%;
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    padding: 5.9rem 0;
+
+  }
+  
+  .reservation__title {
+    font-size: 3rem;
+    width: 40rem;
+    margin: 0 0 0 10.3rem;
+  }
+  
+  .footer--layout {
+    padding: 5rem 0;
+    max-height: 5.5rem;
+  }
+
+  .footer__log--container {
+    height: 5.25rem;
+  }
+
+  .footer__list-layout {
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    width: 35rem;
+  }
+
+  
+  .footer__list {
+    width: 20.25rem;
+    font-size: .875rem;
+  }
+
+}
